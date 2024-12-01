@@ -31,7 +31,7 @@ export default function Home() {
 
 	return (
 		<div className="">
-			<div className="flex gap-5">
+			<div className="flex gap-5 flex-wrap">
 				{tasks.map(task => (
 					<Card key={task.id} className="min-w-64">
 						<CardHeader className="flex justify-between flex-row space-y-0">
